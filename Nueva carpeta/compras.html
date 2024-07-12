@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Nueva carpeta/style.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <title>Pastelería YumWorks</title>
+  </head>
+  <body id="body" class="hidden">
+      <header class="navegacion">
+        <img src="/img/logo.png" alt="Logo">
+        <nav>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/productos.html" class="nav-productos">Productos</a></li>
+            <li><a href="/Sobre Nosotros.html">Sobre nosotros</a></li>
+            <li><a href="/index.html#contactos">Contactos</a></li>
+            <li><a href="#" id="cart-icon"><i class="bi bi-cart"></i><span id="cart-count">0</span></a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="cart-container" class="hidden">
+        <h2>Tu Carrito</h2>
+        <ul id="cart-items"></ul>
+        <button id="checkout">Pagar</button>
+      </div>
+      <section class="Parte-Superior">
+        <img src="/Nueva carpeta/assets/pastel-fresa.png" alt="">
+        <div class="Contenido-Superior">
+          <div class="Parte-Superior-contenido">
+          <h4>Postre de Galleta</h4>
+          <p>Un delicioso postre de galleta con relleno de <br> almendras y decorado con fresas
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill star"></i>
+            <i class="bi bi-star-fill star"></i>
+            <i class="bi bi-star-fill star"></i>
+            <i class="bi bi-star-fill star"></i>
+            <i class="bi bi-star-fill star"></i>
+          </div>
+        </div>
+          <input type="number" class="rango-numeros">
+          <p>S/6.00</p>
+          <button class="add-to-cart" data-id="1" data-name="Pastel De Chocolate" data-price="S/ 37.00">Agregar al carrito</button>
+        </div> 
+        </div>
+      </section>
+      <div class="texto-productos"><h2>Productos Recomendados</h2></div>
+      <section class="Productos-recomendados">
+        <div class="cake-card">
+          <a href="/Nueva carpeta/compras.html">
+          <img src="/img/cakes/pastel-de-chocolate.png" alt="Pastel De Chocolate">
+          </a>
+          <h3>Pastel De Chocolate </h3>
+            <div class="contenido-card">
+              <button class="add-to-cart" data-id="1" data-name="Pastel De Chocolate" data-price="S/ 37.00">Ver mas</button>
+            </div>
+        </div>
+        <div class="cake-card">
+          <a href="/Nueva carpeta/compras.html">
+          <img src="/img/cakes/Pastel-de-maracuyá.png" alt="Pastel De Chocolate">
+          </a>
+          <h3>Pastel De Maracuya</h3>
+            <div class="contenido-card">
+              <button class="add-to-cart" data-id="1" data-name="Pastel De Chocolate" data-price="S/ 37.00">Ver mas</button>
+            </div>
+        </div>
+        <div class="cake-card">
+          <a href="/Nueva carpeta/compras.html">
+          <img src="/img/cakes/pastel-fresa.png" alt="Pastel De Chocolate">
+          </a>
+          <h3>Cheesecake de Fresa</h3>
+            <div class="contenido-card">
+              <button class="add-to-cart" data-id="1" data-name="Pastel De Chocolate" data-price="S/ 37.00">Ver mas</button>
+            </div>
+        </div>
+        <div class="cake-card">
+          <a href="/Nueva carpeta/compras.html">
+          <img src="/img/cakes/Torta-3-leches.png" alt="Pastel De Chocolate">
+          </a>
+          <h3>Postre tres leches</h3>
+            <div class="contenido-card">
+              <button class="add-to-cart" data-id="1" data-name="Pastel De Chocolate" data-price="S/ 37.00">Ver mas</button>
+            </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Pastelería YumWorks. Todos los derechos reservados.</p>
+        </div>
+        <div>
+            <ul class="footer-links">
+                <li><a href="#">Términos de servicio</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="/img/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="/img/instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="/img/twitter-icon.png" alt="Twitter"></a>
+        </div>
+    </footer>
+    </div>
+    <script src="/js/productos.js"></script>
+  <script src="/scroll-header.js"></script>
+  <script src="/javascript/"></script>
+  <script src="/javascript/codigo.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="/js/carrito-compras.js"></script>
+  <script src="/Nueva carpeta/estrellas.js"></script>
+  </body>
+</html>
